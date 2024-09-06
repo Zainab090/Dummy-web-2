@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khan-Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <div class="dropdown-list">
+             <select name="courses"  id="courses"  >
+                <option value="Courses">Courses</option>
+                <option value="Class1" >Class1</option>
+                <option value="Class2">Class2</option>
+                <option value="Class3">Class3</option>
+                <option value="Class4">Class4</option>
+             </select>
+            </div>
+            <div class="search">
+                <form action="" id="search">
+                <input type="search" placeholder="Search" for="search">
+                <!-- <ion-icon name="search-outline" class="search-icon"></ion-icon> -->
+
+            </form>
+            </div>
+            </div>
+            <div class="mid">
+                <img src="./image/khan academy.jpeg" alt="logo" class="nav-img">
+                <p class="nav-p">Khan Academy</p>
+            </div>
+            <div class="right">
+                <ul>
+                <div class="right-icon"><li><a href="">Donate </a></li><ion-icon name="log-out-outline" class="donate"></ion-icon></div>
+                <li><a href="">log in</a></li>
+                <li><a href="">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section class="first-half"><img src="./image/hero_student_collage_US_2x.png" alt="logo" class="first-half-img"></section>
+        <section class="sec-half">
+            <p class="sec-half-p1">For every student,<br>
+                every classroom. <br>
+                Real results.</p>
+                <p class="sec-half-p2">We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
+                <div class="sec-half-button">
+                    <button class="sec-half-buttons"  onclick="window.location.href='http://127.0.0.1:5500/learners.html'">Learners</button>
+                    <button class="sec-half-buttons" onclick="window.location.href='http://127.0.0.1:5500/teachers.html'">Teachers</button>
+                    <button class="sec-half-buttons" onclick="window.location.href='http://127.0.0.1:5500/parents.html'">Parents</button>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
